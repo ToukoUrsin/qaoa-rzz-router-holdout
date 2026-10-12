@@ -1,0 +1,4 @@
+qiskit==2.5.2
+pytket==2.18.5
+pytket-qiskit==0.78.0
+mqt-bench==2.3.0

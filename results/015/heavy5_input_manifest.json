@@ -1,0 +1,618 @@
+{
+  "source_url": "https://github.com/cda-tum/mqt-bench",
+  "generator": "qaoa",
+  "random_parameters": false,
+  "binding": "0.173*(sorted parameter index+1)",
+  "selection": "first declared number of distinct fingerprints per width; no objective-dependent selection",
+  "widths": [
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "per_width": 20,
+  "start_seed": 2000,
+  "rows": [
+    {
+      "case": "qaoa-5-graphseed-2000",
+      "width": 5,
+      "seed": 2000,
+      "input_fingerprint": "fd7206165686f5fac49c9485cb3cde6aeaad26caaa7e5a94b45e6acbd176cbfe"
+    },
+    {
+      "case": "qaoa-5-graphseed-2001",
+      "width": 5,
+      "seed": 2001,
+      "input_fingerprint": "31b6eaba19e5414c0d69bb626298145b859345eef075f64e4ea924f66010d0eb"
+    },
+    {
+      "case": "qaoa-5-graphseed-2002",
+      "width": 5,
+      "seed": 2002,
+      "input_fingerprint": "f6ee3d22ffc70cc066a69b0c4fe25cc5566b4286e8820e215b6b670528919c06"
+    },
+    {
+      "case": "qaoa-5-graphseed-2003",
+      "width": 5,
+      "seed": 2003,
+      "input_fingerprint": "a89d3c5e8d068dc3ab03a6ac2a16c6208e6a224a0370364ce5c7be35aa1878a7"
+    },
+    {
+      "case": "qaoa-5-graphseed-2004",
+      "width": 5,
+      "seed": 2004,
+      "input_fingerprint": "7226fa942cb87e2e19fc9d19a36211b86049b8e0fde67469b83a575b02a0e4eb"
+    },
+    {
+      "case": "qaoa-5-graphseed-2005",
+      "width": 5,
+      "seed": 2005,
+      "input_fingerprint": "e7e9383b39c3428243c8b3916dc260b85d0e1e0c2a85500d888e1470fd281d48"
+    },
+    {
+      "case": "qaoa-5-graphseed-2006",
+      "width": 5,
+      "seed": 2006,
+      "input_fingerprint": "cbb6865acca954f2ea4c81789aaf3fa366f7f6477a584d9030ee808ce2314a65"
+    },
+    {
+      "case": "qaoa-5-graphseed-2007",
+      "width": 5,
+      "seed": 2007,
+      "input_fingerprint": "6e7817857d9602376bb540151e9542aec957029958dae813576983da7a817866"
+    },
+    {
+      "case": "qaoa-5-graphseed-2008",
+      "width": 5,
+      "seed": 2008,
+      "input_fingerprint": "7082699e1ecfb053d302bfebc14e95f9fa8d4b317f805a7b8fda515f6ea70b7c"
+    },
+    {
+      "case": "qaoa-5-graphseed-2009",
+      "width": 5,
+      "seed": 2009,
+      "input_fingerprint": "6b410b8bd04e89a2c4025c94ec71adf03f101eb89e2b1926a84d822f8c6eadad"
+    },
+    {
+      "case": "qaoa-5-graphseed-2010",
+      "width": 5,
+      "seed": 2010,
+      "input_fingerprint": "994188d18607e4a1f46f43a68d5a04bb0d0efac69fb92a2062e3433568d55232"
+    },
+    {
+      "case": "qaoa-5-graphseed-2011",
+      "width": 5,
+      "seed": 2011,
+      "input_fingerprint": "c60f07bf31dfce215f62b1d84410f1cc19f5aae8f5b83d1e443de982a0e0a222"
+    },
+    {
+      "case": "qaoa-5-graphseed-2012",
+      "width": 5,
+      "seed": 2012,
+      "input_fingerprint": "422ea9dddac18c2e83d3d0791d386f488e9f2d542bc15cbfb76863f3cf50c849"
+    },
+    {
+      "case": "qaoa-5-graphseed-2013",
+      "width": 5,
+      "seed": 2013,
+      "input_fingerprint": "d757e5df3d76d1f3e7d2d5a15024f681e6f7cae8a04c2f8218852209b2dcafc1"
+    },
+    {
+      "case": "qaoa-5-graphseed-2014",
+      "width": 5,
+      "seed": 2014,
+      "input_fingerprint": "a3d4a97b1a32eac67fbcc1ddcb55581c177a47d22f0e3d66bdcaaee6fd53750d"
+    },
+    {
+      "case": "qaoa-5-graphseed-2015",
+      "width": 5,
+      "seed": 2015,
+      "input_fingerprint": "877db15cab56fcdcf15bb6e29213a68d1732aac4ba4ca13b058d96d72e82b4a4"
+    },
+    {
+      "case": "qaoa-5-graphseed-2016",
+      "width": 5,
+      "seed": 2016,
+      "input_fingerprint": "954c0f0f645ac109604d872a999e8bacdb12119053ed133a6857a13a7314c6c4"
+    },
+    {
+      "case": "qaoa-5-graphseed-2017",
+      "width": 5,
+      "seed": 2017,
+      "input_fingerprint": "d9c90556c04e8e3023123a131151761aa862ef3b67984664029ba3467f1011c7"
+    },
+    {
+      "case": "qaoa-5-graphseed-2019",
+      "width": 5,
+      "seed": 2019,
+      "input_fingerprint": "d80bc473fd2c8530a743ac9e55c32003234122f947b432f35b0ecee52fa7624a"
+    },
+    {
+      "case": "qaoa-5-graphseed-2020",
+      "width": 5,
+      "seed": 2020,
+      "input_fingerprint": "04ea5afa73aa3a8271bb3751d6076d6ec9196470f336234ea9dcc47a821c2be3"
+    },
+    {
+      "case": "qaoa-6-graphseed-2000",
+      "width": 6,
+      "seed": 2000,
+      "input_fingerprint": "21e2e40583738df636630afbc161f47a27f5d7fe37f239ee89750aa3a1ca537b"
+    },
+    {
+      "case": "qaoa-6-graphseed-2001",
+      "width": 6,
+      "seed": 2001,
+      "input_fingerprint": "3e6a62146c15c7115196b28da14abaac8cc6e2b571bae8de6af5c1a860601069"
+    },
+    {
+      "case": "qaoa-6-graphseed-2002",
+      "width": 6,
+      "seed": 2002,
+      "input_fingerprint": "9a4451630f55f2a5a3083f91d1999d862283b0b7727d7532b59f8cc1e071b98a"
+    },
+    {
+      "case": "qaoa-6-graphseed-2003",
+      "width": 6,
+      "seed": 2003,
+      "input_fingerprint": "9e9681dc7d97864a0acf5e8445363abe9aadb82c34bc261eeca10e628724320a"
+    },
+    {
+      "case": "qaoa-6-graphseed-2004",
+      "width": 6,
+      "seed": 2004,
+      "input_fingerprint": "fadd63cb33dba83377a436afc09498d9a1b41edcc0faad829888aceec1cfd2e5"
+    },
+    {
+      "case": "qaoa-6-graphseed-2005",
+      "width": 6,
+      "seed": 2005,
+      "input_fingerprint": "45a0ee1f275424a7d98563b68eada7af52ff4d858bc43f4ac54af3800e4f742f"
+    },
+    {
+      "case": "qaoa-6-graphseed-2006",
+      "width": 6,
+      "seed": 2006,
+      "input_fingerprint": "b24bd84fe33af6e694106b4680d00b3f73133e755be9a0f061ddd2d1138b60cb"
+    },
+    {
+      "case": "qaoa-6-graphseed-2007",
+      "width": 6,
+      "seed": 2007,
+      "input_fingerprint": "e2ca37e886c75d6da7e407baffc3daa2203b67cd95aaca4a5efda69a0953bb3b"
+    },
+    {
+      "case": "qaoa-6-graphseed-2008",
+      "width": 6,
+      "seed": 2008,
+      "input_fingerprint": "498def09e976a70e889597b2ba8f68fbb4f5f5e93cb8a8ddfeacf409f408993b"
+    },
+    {
+      "case": "qaoa-6-graphseed-2009",
+      "width": 6,
+      "seed": 2009,
+      "input_fingerprint": "fbdf47be689353e91a494978427777cedc0d48e91f7d54eb684f545ece2b1a94"
+    },
+    {
+      "case": "qaoa-6-graphseed-2010",
+      "width": 6,
+      "seed": 2010,
+      "input_fingerprint": "aaed33a36f3699a336f58448c3b7421d4986f5f27b6be44a2ece91ea849c8859"
+    },
+    {
+      "case": "qaoa-6-graphseed-2011",
+      "width": 6,
+      "seed": 2011,
+      "input_fingerprint": "82ac830b749098aafd4e537670b04e0891accc0d08ce7d9dc3b2ec47b2b4b9ab"
+    },
+    {
+      "case": "qaoa-6-graphseed-2012",
+      "width": 6,
+      "seed": 2012,
+      "input_fingerprint": "84480ab2272253da6654b2542daa2d65e0af0a2ce07af8daf3e77dcf0079be5b"
+    },
+    {
+      "case": "qaoa-6-graphseed-2013",
+      "width": 6,
+      "seed": 2013,
+      "input_fingerprint": "c35c6a45edd412bb95b528308faa1b9f4349c74526e20c5a26de6433b0727269"
+    },
+    {
+      "case": "qaoa-6-graphseed-2014",
+      "width": 6,
+      "seed": 2014,
+      "input_fingerprint": "b94e0f0bce0dd252060eb93867cb534ccdc907b93db84a880fd68426aa69226f"
+    },
+    {
+      "case": "qaoa-6-graphseed-2015",
+      "width": 6,
+      "seed": 2015,
+      "input_fingerprint": "23d29aa1f6914b77422cfd6fe14aff82a5f75edc28dbd0634c2d835d9c21479c"
+    },
+    {
+      "case": "qaoa-6-graphseed-2016",
+      "width": 6,
+      "seed": 2016,
+      "input_fingerprint": "21b8a0410dade1b42c5d0b8684d2385b8812606ddbfd058f26f2c6b09f0219b3"
+    },
+    {
+      "case": "qaoa-6-graphseed-2017",
+      "width": 6,
+      "seed": 2017,
+      "input_fingerprint": "3dee0c971d2dabbbd92d4354bf07f7e31852e04baa1257675206626cc780bf4e"
+    },
+    {
+      "case": "qaoa-6-graphseed-2018",
+      "width": 6,
+      "seed": 2018,
+      "input_fingerprint": "8b48221d5677b2c24e163e6e5c6cfe50b61631bf20c7b9e44ffc83904a68a838"
+    },
+    {
+      "case": "qaoa-6-graphseed-2019",
+      "width": 6,
+      "seed": 2019,
+      "input_fingerprint": "ae60920c432a65beb6851e5bf6852eeeb3d4fb66c81a7c4e639303dd454519ac"
+    },
+    {
+      "case": "qaoa-7-graphseed-2000",
+      "width": 7,
+      "seed": 2000,
+      "input_fingerprint": "8c9094bf4e03eab6d5375e318d871e5196a63946b4f1174891832dc5a5bec1a7"
+    },
+    {
+      "case": "qaoa-7-graphseed-2001",
+      "width": 7,
+      "seed": 2001,
+      "input_fingerprint": "e1dfcfb071de61901bdbc203fba935b3afb17e4e451fc83c65d25b48da959b5b"
+    },
+    {
+      "case": "qaoa-7-graphseed-2002",
+      "width": 7,
+      "seed": 2002,
+      "input_fingerprint": "93955ea3f4663e03051dbc2167d8b24b1fd42497cc90d707ea9322eb7cd9cce5"
+    },
+    {
+      "case": "qaoa-7-graphseed-2003",
+      "width": 7,
+      "seed": 2003,
+      "input_fingerprint": "5f056c10dce28fa0235eb9ee6a58fa0e6072e10b7f8611b85bc05d02ef4fa3b8"
+    },
+    {
+      "case": "qaoa-7-graphseed-2004",
+      "width": 7,
+      "seed": 2004,
+      "input_fingerprint": "106e8f401f70384872a6277abe1b38385fea47272363bc2fa3bae055be617c1d"
+    },
+    {
+      "case": "qaoa-7-graphseed-2005",
+      "width": 7,
+      "seed": 2005,
+      "input_fingerprint": "5aee13637983f0892a1ade4bfc6601c9bfbb4b035edb8d2c5039a45838aa86e7"
+    },
+    {
+      "case": "qaoa-7-graphseed-2006",
+      "width": 7,
+      "seed": 2006,
+      "input_fingerprint": "beb23c95f4cfd7cb79b90a06e6f2b41585a1a13fc071b15e3f65b40ef7229cd1"
+    },
+    {
+      "case": "qaoa-7-graphseed-2007",
+      "width": 7,
+      "seed": 2007,
+      "input_fingerprint": "9fa8e8efa0e3c10f441715060ba9c534c0ca9518a602320a164359f48bdc24ea"
+    },
+    {
+      "case": "qaoa-7-graphseed-2008",
+      "width": 7,
+      "seed": 2008,
+      "input_fingerprint": "26eaaad6e8d7287c220edfa9239c7a7e17567326a768ed909696bc635092eab1"
+    },
+    {
+      "case": "qaoa-7-graphseed-2009",
+      "width": 7,
+      "seed": 2009,
+      "input_fingerprint": "7a58ea9a99843d70b1c0d3f44bb9f133b46ef8dadd7192d5d2cc1790d22d2569"
+    },
+    {
+      "case": "qaoa-7-graphseed-2010",
+      "width": 7,
+      "seed": 2010,
+      "input_fingerprint": "80bd99637b7577a745f159c16d4900118e2b7d6f41dc1e9b94dd4bd06965f584"
+    },
+    {
+      "case": "qaoa-7-graphseed-2011",
+      "width": 7,
+      "seed": 2011,
+      "input_fingerprint": "4c6b0cd1e405539d0eadb134b6c3f7f18cc9e0ef80f91b3d371ef0f115c943b7"
+    },
+    {
+      "case": "qaoa-7-graphseed-2012",
+      "width": 7,
+      "seed": 2012,
+      "input_fingerprint": "45eaf68af0220acc393534a8f0ddb42b0f4b14d5b10b712e4e16d579e865ba02"
+    },
+    {
+      "case": "qaoa-7-graphseed-2013",
+      "width": 7,
+      "seed": 2013,
+      "input_fingerprint": "d1e45d2b50cc7ba64cd5669d200a61a9d0b61c105375a3f1de2172288ecc4fac"
+    },
+    {
+      "case": "qaoa-7-graphseed-2014",
+      "width": 7,
+      "seed": 2014,
+      "input_fingerprint": "b7ee83a7b805c7bde6d0a40a5d834d89d8f164aa82be36d9341ec3ed84b2da78"
+    },
+    {
+      "case": "qaoa-7-graphseed-2015",
+      "width": 7,
+      "seed": 2015,
+      "input_fingerprint": "b61095d90f30d344ec812929da1d21a6a189acad955c4b38070650569503f158"
+    },
+    {
+      "case": "qaoa-7-graphseed-2016",
+      "width": 7,
+      "seed": 2016,
+      "input_fingerprint": "1c8cd9ca761ac786917a905bb406588c94380798bbd375af1dd5d3eee4cc137e"
+    },
+    {
+      "case": "qaoa-7-graphseed-2017",
+      "width": 7,
+      "seed": 2017,
+      "input_fingerprint": "86e3032fab48e1123a47ccaca7ea3667087e63416738ce9c140c7d1ac7cc9a2c"
+    },
+    {
+      "case": "qaoa-7-graphseed-2018",
+      "width": 7,
+      "seed": 2018,
+      "input_fingerprint": "c9d9a68755bbb4226411607da730ac4f6c390bd76ec47a972bccc47f506a9a00"
+    },
+    {
+      "case": "qaoa-7-graphseed-2019",
+      "width": 7,
+      "seed": 2019,
+      "input_fingerprint": "878859811cedf8c782ab3ff937cba4c287383afe025f7adb93efd1523aad345c"
+    },
+    {
+      "case": "qaoa-8-graphseed-2000",
+      "width": 8,
+      "seed": 2000,
+      "input_fingerprint": "be66ef3e18fb38690182af53048dad9b18ef99d2712d182736c6519ab7b3e3f8"
+    },
+    {
+      "case": "qaoa-8-graphseed-2001",
+      "width": 8,
+      "seed": 2001,
+      "input_fingerprint": "728d36b1c94b573399eca7ef80e81a2c4f4371a69129f86a2e74ecbc0fde5cfa"
+    },
+    {
+      "case": "qaoa-8-graphseed-2002",
+      "width": 8,
+      "seed": 2002,
+      "input_fingerprint": "9421b079c5861791dec66c41be356cbb00874ed57f0fe42ccfba730f4012089c"
+    },
+    {
+      "case": "qaoa-8-graphseed-2003",
+      "width": 8,
+      "seed": 2003,
+      "input_fingerprint": "1a6f7682af32e868c5ce59b9e8d967c3a3e1f145d7798278ccd503dc4fc90e87"
+    },
+    {
+      "case": "qaoa-8-graphseed-2004",
+      "width": 8,
+      "seed": 2004,
+      "input_fingerprint": "e712f4945eaa19aee3481cf54d97efab67d822fda6ddb0123d995aeb32ab594f"
+    },
+    {
+      "case": "qaoa-8-graphseed-2005",
+      "width": 8,
+      "seed": 2005,
+      "input_fingerprint": "0a580fa7c22cd3622f186bd86bc30ad728176500588d5a3c7184c7592bc40d5a"
+    },
+    {
+      "case": "qaoa-8-graphseed-2006",
+      "width": 8,
+      "seed": 2006,
+      "input_fingerprint": "dc47b434d2a2a722b60a66ebfb40625e0a80dd316c50eb6920ae302b32ca7358"
+    },
+    {
+      "case": "qaoa-8-graphseed-2007",
+      "width": 8,
+      "seed": 2007,
+      "input_fingerprint": "cf954b4ed81ff5a5e0ca9385510ca27af1f221fd8bffaf0063a154f96b8c9940"
+    },
+    {
+      "case": "qaoa-8-graphseed-2008",
+      "width": 8,
+      "seed": 2008,
+      "input_fingerprint": "083f36abbc075981442fca121da789693ebdf59621ea4bf358a4e0a050c8b13e"
+    },
+    {
+      "case": "qaoa-8-graphseed-2009",
+      "width": 8,
+      "seed": 2009,
+      "input_fingerprint": "9e804ba4bfffe7364288677f02d2c952f762ba95fbe94b47efdef08400089de1"
+    },
+    {
+      "case": "qaoa-8-graphseed-2010",
+      "width": 8,
+      "seed": 2010,
+      "input_fingerprint": "215fb5dd23c3802856346dbf4aed306f94992c13ea80a149a2efcc7ea94359f9"
+    },
+    {
+      "case": "qaoa-8-graphseed-2011",
+      "width": 8,
+      "seed": 2011,
+      "input_fingerprint": "3747d7903f45f82b5fcb9ff9a572da88d5918788035866fe7872399afb2783f1"
+    },
+    {
+      "case": "qaoa-8-graphseed-2012",
+      "width": 8,
+      "seed": 2012,
+      "input_fingerprint": "b106e5833611d6bcc5cc207576a260226fac674ef5f0970cd3c97d8c766ac9b7"
+    },
+    {
+      "case": "qaoa-8-graphseed-2013",
+      "width": 8,
+      "seed": 2013,
+      "input_fingerprint": "82fd737cdeef8b60724095038e0eb52697ca3a026bc100636e0ade247cae2260"
+    },
+    {
+      "case": "qaoa-8-graphseed-2014",
+      "width": 8,
+      "seed": 2014,
+      "input_fingerprint": "751f87769b5c2bbcaedd34c665d5e6dda1b642a6a4714dc93aea7c610ba5150c"
+    },
+    {
+      "case": "qaoa-8-graphseed-2015",
+      "width": 8,
+      "seed": 2015,
+      "input_fingerprint": "ccbcdd6188cce53bb7a2688c0a4700b9ac9e93258798bd19f44cc38259bf6b12"
+    },
+    {
+      "case": "qaoa-8-graphseed-2016",
+      "width": 8,
+      "seed": 2016,
+      "input_fingerprint": "7c714a7e4ef36e219b04bdaca61184dcb6766e4e18ef63d24d5343f96549c180"
+    },
+    {
+      "case": "qaoa-8-graphseed-2017",
+      "width": 8,
+      "seed": 2017,
+      "input_fingerprint": "6c280169762c14391dba09a117009a67659ba4c82c5d3230b75a1c10d36cc4df"
+    },
+    {
+      "case": "qaoa-8-graphseed-2018",
+      "width": 8,
+      "seed": 2018,
+      "input_fingerprint": "fe447e3e26fd51825e0f5725882ea7f11b157286a07e7623eeb51ce77bd043aa"
+    },
+    {
+      "case": "qaoa-8-graphseed-2019",
+      "width": 8,
+      "seed": 2019,
+      "input_fingerprint": "ed3f7a3e3d57474143a58e39caa518d19a6d301326e46efd1d9a1052f4084a0d"
+    },
+    {
+      "case": "qaoa-9-graphseed-2000",
+      "width": 9,
+      "seed": 2000,
+      "input_fingerprint": "b2c845f2d5f5147312712b8d6949fbf462d099cd073773d5fad13143da38319b"
+    },
+    {
+      "case": "qaoa-9-graphseed-2001",
+      "width": 9,
+      "seed": 2001,
+      "input_fingerprint": "24c7b09c6ca479360f3460f4a8bb9175bfd521e6161919e2da63a05ef11588d7"
+    },
+    {
+      "case": "qaoa-9-graphseed-2002",
+      "width": 9,
+      "seed": 2002,
+      "input_fingerprint": "592a7777042af6dd15c364c5c78cf065a8efb29edfb388a1f2e483dfd413c2b3"
+    },
+    {
+      "case": "qaoa-9-graphseed-2003",
+      "width": 9,
+      "seed": 2003,
+      "input_fingerprint": "387c184f0b5c9909feec97da7dc5da322a234ac0c399f794455b3214fecd30f2"
+    },
+    {
+      "case": "qaoa-9-graphseed-2004",
+      "width": 9,
+      "seed": 2004,
+      "input_fingerprint": "f1698ba4e5900ac955e90bf9552fa399e0b4f903357661b1bef4fa211e0a82eb"
+    },
+    {
+      "case": "qaoa-9-graphseed-2005",
+      "width": 9,
+      "seed": 2005,
+      "input_fingerprint": "4406dd0af998e8f587d0ce343c7a53f4aa1b93c026e983b8b4f23399588333ef"
+    },
+    {
+      "case": "qaoa-9-graphseed-2006",
+      "width": 9,
+      "seed": 2006,
+      "input_fingerprint": "23283580a6ea5a0877c4a63fc08f789aa27814473f0800d103338e680a0ba0d8"
+    },
+    {
+      "case": "qaoa-9-graphseed-2007",
+      "width": 9,
+      "seed": 2007,
+      "input_fingerprint": "967797505a286d6c549ed3e00a629a45aad3e31ea055327373f116ee98c77c3a"
+    },
+    {
+      "case": "qaoa-9-graphseed-2008",
+      "width": 9,
+      "seed": 2008,
+      "input_fingerprint": "0c9adbb57e305186c478d9c343b54484d37b4c58edb86ffb819a53bb894b0581"
+    },
+    {
+      "case": "qaoa-9-graphseed-2009",
+      "width": 9,
+      "seed": 2009,
+      "input_fingerprint": "b7e2e907205bf488974457c37b15ee25ba4671e86e4f3119f3aada815361588f"
+    },
+    {
+      "case": "qaoa-9-graphseed-2010",
+      "width": 9,
+      "seed": 2010,
+      "input_fingerprint": "ea936b72d46f1127ef7bef4dbce2b986c600a9f44109f8d64474c206abe1e765"
+    },
+    {
+      "case": "qaoa-9-graphseed-2011",
+      "width": 9,
+      "seed": 2011,
+      "input_fingerprint": "93dc0e0f695e525bdff808d9462b7c7fe05ce2708bf13b22a889346648766919"
+    },
+    {
+      "case": "qaoa-9-graphseed-2012",
+      "width": 9,
+      "seed": 2012,
+      "input_fingerprint": "e9269b76bb3795008465b47438af5ad71b83d6f1f0e9a9790a56ea32295ef0b2"
+    },
+    {
+      "case": "qaoa-9-graphseed-2013",
+      "width": 9,
+      "seed": 2013,
+      "input_fingerprint": "bdcfcdb360d90c2cd2c2320589c1a72d949eefdf5edf05f8fea6e111ea5bbe88"
+    },
+    {
+      "case": "qaoa-9-graphseed-2014",
+      "width": 9,
+      "seed": 2014,
+      "input_fingerprint": "21baf99df173b68c222be7649c8b35a92b9d9a5f54d1d887e4136e7b1157f884"
+    },
+    {
+      "case": "qaoa-9-graphseed-2015",
+      "width": 9,
+      "seed": 2015,
+      "input_fingerprint": "5badfaf9f0009cfc1783418d52b809be85ad797c85e89af4edc42da1b092403c"
+    },
+    {
+      "case": "qaoa-9-graphseed-2016",
+      "width": 9,
+      "seed": 2016,
+      "input_fingerprint": "564d11effc559dfb720b6f425f06e5c1d20c9b0c65ebfe8fc7cc882e9b3b0d7d"
+    },
+    {
+      "case": "qaoa-9-graphseed-2017",
+      "width": 9,
+      "seed": 2017,
+      "input_fingerprint": "c1bf268fe0c65efe15813b45f2c1138ea268ef9fcbc5b82be07f134110355f49"
+    },
+    {
+      "case": "qaoa-9-graphseed-2018",
+      "width": 9,
+      "seed": 2018,
+      "input_fingerprint": "51ce1f1b56400960c52eba7cb68fc58c57770dc3010852da6e0fa94daaf5ad77"
+    },
+    {
+      "case": "qaoa-9-graphseed-2019",
+      "width": 9,
+      "seed": 2019,
+      "input_fingerprint": "77d4a6ac817bf2ae64212f4c15bbfc49b4e1ca950eec5461b2c70ed301b61489"
+    }
+  ]
+}

@@ -22,7 +22,9 @@ the incumbent); they are counted as failures, not wins. Total CX over valid rows
 
 Every routed circuit is checked against the original input with layout-aware statevector probes (basis and random
 complex inputs, plus a perturbed negative control); each changed layer carries an exhaustive local certificate.
-QCEC 3.11.0 equivalence results are in `results/015/qcec_full.json` (see below).
+MQT QCEC 3.11.0 (construction checker, 20 s cap per check) proves 115 of the 183 routed circuits equivalent to
+the original (all of widths 5-7, two of width 8); the other 68 (widths 8-9) time out or give no information, and
+none is reported non-equivalent (`results/015/qcec_full.json`, `results/015/audit_full.json`).
 
 Qiskit's own commuting-gate flow (`FindCommutingPauliEvolutions` + `Commuting2qGateRouter` with a line
 `SwapStrategy`, best of 32 line orderings, then level 3 on a physical path) gives medians 103 (grid) and 106
@@ -36,7 +38,7 @@ bash smoke.sh                                         # 2 inputs per map, ~1 min
 bash results/015/run_full.sh                          # full holdout, both maps (~2 min on 4 vCPU)
 bash results/018/run.sh                               # Commuting2qGateRouter baseline
 pip install mqt.qcec==3.11.0 && bash results/015/run_qcec_full.sh
-python results/015/audit_holdout.py --qcec results/015/qcec_full.json --out audit.json
+python results/015/audit_holdout.py --qcec results/015/qcec_full.json --out results/015/audit_full.json
 ```
 
 Scope: QAOA circuits only, small widths (5-9) and two coupling maps. Not tested on other circuit families.

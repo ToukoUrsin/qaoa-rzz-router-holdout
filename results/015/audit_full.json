@@ -1,0 +1,156 @@
+{
+  "scope": "100 distinct MQT QAOA graphs; family result only, mixed charter remains unmet",
+  "evidence_level": "independently audited objectives/hashes/checker records; QPY counts and certificates bound by separate QCEC validator",
+  "inputs": {
+    "results/015/grid3_holdout.json": "d954ea36c682248051abb71d83781bc932af61249c090dc244ea7d5e0da6a6ee",
+    "results/015/heavy5_holdout.json": "574320102ac8a43dfbd7f6eb43052a2be592be56a96a0fc9290c28a75b9da0cc",
+    "results/015/qcec_full.json": "8f2371cc2f4d65dbd4191eb7fc44ae76d7336fa2ccf1191793ab23e89812e6ec"
+  },
+  "versions": {
+    "qiskit": "2.5.2",
+    "pytket": "2.18.5",
+    "pytket-qiskit": "0.78.0",
+    "mqt.bench": "2.3.0"
+  },
+  "maps": {
+    "grid3": {
+      "score": {
+        "attempted": 100,
+        "valid": 100,
+        "failures": 0,
+        "incumbent_median": 54.0,
+        "raw_candidate_median": 48.0,
+        "selected_median": 48.0,
+        "raw_ratio_gain": 0.11111111111111116,
+        "selected_ratio_gain": 0.11111111111111116,
+        "wins": 89,
+        "ties": 10,
+        "raw_losses": 1,
+        "selected_losses": 0,
+        "original_input_checks": 300
+      },
+      "layer_certificates": 200,
+      "exhaustive_layer_basis_inputs": 59456,
+      "full_operator_fusion_checks": 181,
+      "recorded_negative_controls": 781,
+      "max_original_replay_error": 1.0519571697458054e-13,
+      "failures": []
+    },
+    "heavy5": {
+      "score": {
+        "attempted": 100,
+        "valid": 83,
+        "failures": 17,
+        "incumbent_median": 64,
+        "raw_candidate_median": 50,
+        "selected_median": 50,
+        "raw_ratio_gain": 0.21875,
+        "selected_ratio_gain": 0.21875,
+        "wins": 78,
+        "ties": 5,
+        "raw_losses": 0,
+        "selected_losses": 0,
+        "original_input_checks": 249
+      },
+      "layer_certificates": 166,
+      "exhaustive_layer_basis_inputs": 96000,
+      "full_operator_fusion_checks": 156,
+      "recorded_negative_controls": 654,
+      "max_original_replay_error": 1.0158765875571019e-13,
+      "failures": [
+        {
+          "case": "qaoa-5-graphseed-2009",
+          "status": "failure",
+          "error": "AssertionError: region 14 exceeds certificate cap"
+        },
+        {
+          "case": "qaoa-6-graphseed-2001",
+          "status": "failure",
+          "error": "AssertionError: region 19 exceeds certificate cap"
+        },
+        {
+          "case": "qaoa-6-graphseed-2007",
+          "status": "failure",
+          "error": "AssertionError: region 14 exceeds certificate cap"
+        },
+        {
+          "case": "qaoa-6-graphseed-2012",
+          "status": "failure",
+          "error": "AssertionError: region 14 exceeds certificate cap"
+        },
+        {
+          "case": "qaoa-7-graphseed-2001",
+          "status": "failure",
+          "error": "AssertionError: region 13 exceeds certificate cap"
+        },
+        {
+          "case": "qaoa-7-graphseed-2012",
+          "status": "failure",
+          "error": "AssertionError: region 14 exceeds certificate cap"
+        },
+        {
+          "case": "qaoa-7-graphseed-2019",
+          "status": "failure",
+          "error": "AssertionError: region 16 exceeds certificate cap"
+        },
+        {
+          "case": "qaoa-8-graphseed-2012",
+          "status": "failure",
+          "error": "AssertionError: region 14 exceeds certificate cap"
+        },
+        {
+          "case": "qaoa-9-graphseed-2004",
+          "status": "failure",
+          "error": "AssertionError: region 14 exceeds certificate cap"
+        },
+        {
+          "case": "qaoa-9-graphseed-2005",
+          "status": "failure",
+          "error": "AssertionError: region 13 exceeds certificate cap"
+        },
+        {
+          "case": "qaoa-9-graphseed-2006",
+          "status": "failure",
+          "error": "AssertionError: region 13 exceeds certificate cap"
+        },
+        {
+          "case": "qaoa-9-graphseed-2009",
+          "status": "failure",
+          "error": "AssertionError: region 14 exceeds certificate cap"
+        },
+        {
+          "case": "qaoa-9-graphseed-2011",
+          "status": "failure",
+          "error": "AssertionError: region 13 exceeds certificate cap"
+        },
+        {
+          "case": "qaoa-9-graphseed-2012",
+          "status": "failure",
+          "error": "AssertionError: region 21 exceeds certificate cap"
+        },
+        {
+          "case": "qaoa-9-graphseed-2013",
+          "status": "failure",
+          "error": "AssertionError: region 13 exceeds certificate cap"
+        },
+        {
+          "case": "qaoa-9-graphseed-2014",
+          "status": "failure",
+          "error": "AssertionError: region 13 exceeds certificate cap"
+        },
+        {
+          "case": "qaoa-9-graphseed-2018",
+          "status": "failure",
+          "error": "AssertionError: region 13 exceeds certificate cap"
+        }
+      ]
+    }
+  },
+  "qcec": {
+    "attempted": 183,
+    "checked": 115,
+    "failures": 68
+  },
+  "submitted": false,
+  "accepted": false
+}
